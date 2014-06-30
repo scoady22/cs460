@@ -30,7 +30,10 @@ public class EightPuzzle {
 
         // f(n) = g+h function
         int priority() {
+        	g=g;
+        	h=h;
             return g + h;
+            
         }
 
         // build an initial state with the inital array values passed in
